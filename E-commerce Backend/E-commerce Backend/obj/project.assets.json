@@ -5142,11 +5142,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\DarshanBegani\\source\\repos\\E-commerce Backend\\E-commerce Backend\\E-commerce Backend.csproj",
+      "projectUniqueName": "C:\\Users\\DarshanBegani\\Desktop\\E-commerce\\E-commerce Backend\\E-commerce Backend\\E-commerce Backend.csproj",
       "projectName": "E-commerce Backend",
-      "projectPath": "C:\\Users\\DarshanBegani\\source\\repos\\E-commerce Backend\\E-commerce Backend\\E-commerce Backend.csproj",
+      "projectPath": "C:\\Users\\DarshanBegani\\Desktop\\E-commerce\\E-commerce Backend\\E-commerce Backend\\E-commerce Backend.csproj",
       "packagesPath": "C:\\Users\\DarshanBegani\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\DarshanBegani\\source\\repos\\E-commerce Backend\\E-commerce Backend\\obj\\",
+      "outputPath": "C:\\Users\\DarshanBegani\\Desktop\\E-commerce\\E-commerce Backend\\E-commerce Backend\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

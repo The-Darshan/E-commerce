@@ -30,6 +30,9 @@ builder.Services.AddSwaggerGen(c =>
     c.SwaggerDoc("v1", new OpenApiInfo { Title = "E-commerce API", Version = "v1" });
 });
 
+// Configure Kestrel to listen on port 5000
+builder.WebHost.UseUrls("http://localhost:5000");
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -39,13 +42,13 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+// Use CORS policy - Must be before Authorization and MapControllers
+app.UseCors("AllowDev");
+
 // HTTPS redirection intentionally disabled for now to avoid local redirect warnings
 // (enable when HTTPS is configured / when running in Development with proper certs)
 
 app.UseAuthorization();
-
-// Use CORS policy
-app.UseCors("AllowDev");
 
 app.MapControllers();
 
