@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Enable dark mode variant */
+@layer base {
+	html.dark {
+		color-scheme: dark;
+	}
+}
