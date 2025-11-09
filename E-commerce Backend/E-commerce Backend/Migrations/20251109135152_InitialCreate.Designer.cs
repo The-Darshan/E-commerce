@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace E_commerce_Backend.Migrations
 {
     [DbContext(typeof(AppDBContext))]
-    [Migration("20251102100320_SecondaryCreate")]
-    partial class SecondaryCreate
+    [Migration("20251109135152_InitialCreate")]
+    partial class InitialCreate
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -161,8 +161,14 @@ namespace E_commerce_Backend.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("Role")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Username")
                         .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("token")
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");

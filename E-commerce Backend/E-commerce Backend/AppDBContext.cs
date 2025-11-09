@@ -26,13 +26,13 @@ public class AppDBContext : DbContext
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
-        // Explicitly configure precision for decimal Price to avoid SQL truncation warnings
         modelBuilder.Entity<Product>()
             .Property(p => p.Price)
             .HasColumnType("decimal(18,2)");
 
-        // Keep default conventions for relationships. If you add additional
-        // navigation properties later (e.g. WishList/Cart), configure them here.
+        // Using default table naming convention
+        modelBuilder.Entity<User>();
+
         base.OnModelCreating(modelBuilder);
     }
 }

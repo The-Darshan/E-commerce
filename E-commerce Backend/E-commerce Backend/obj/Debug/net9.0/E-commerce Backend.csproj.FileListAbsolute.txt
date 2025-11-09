@@ -323,3 +323,5 @@ C:\Users\DarshanBegani\Desktop\E-commerce\E-commerce Backend\E-commerce Backend\
 C:\Users\DarshanBegani\Desktop\E-commerce\E-commerce Backend\E-commerce Backend\obj\Debug\net9.0\E-commerce Backend.pdb
 C:\Users\DarshanBegani\Desktop\E-commerce\E-commerce Backend\E-commerce Backend\obj\Debug\net9.0\E-commerce Backend.genruntimeconfig.cache
 C:\Users\DarshanBegani\Desktop\E-commerce\E-commerce Backend\E-commerce Backend\obj\Debug\net9.0\ref\E-commerce Backend.dll
+C:\Users\DarshanBegani\Desktop\E-commerce\E-commerce Backend\E-commerce Backend\bin\Debug\net9.0\BCrypt.Net-Next.dll
+C:\Users\DarshanBegani\Desktop\E-commerce\E-commerce Backend\E-commerce Backend\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
